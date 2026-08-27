@@ -1,48 +1,74 @@
-import { Analytics } from '@vercel/analytics/next'
-import type { Metadata, Viewport } from 'next'
-import './globals.css'
+import type React from "react"
+import type { Metadata, Viewport } from "next"
+import { Anton, Space_Grotesk } from "next/font/google"
+import content from "@/data/content.json"
+import "./globals.css"
+
+const anton = Anton({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-anton",
+  display: "swap",
+})
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-grotesk",
+  display: "swap",
+})
+
+const { siteMeta } = content
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+  title: {
+    default: `${siteMeta.name} — ${siteMeta.tagline}`,
+    template: `%s — ${siteMeta.name}`,
   },
+  description:
+    "A no-nonsense strength and conditioning gym. Expert coaching, real barbells, and month-to-month memberships. Claim your free trial week.",
+  keywords: [
+    "gym",
+    "strength training",
+    "powerlifting",
+    "personal training",
+    "conditioning",
+    "Austin gym",
+    siteMeta.name,
+  ],
+  authors: [{ name: siteMeta.name }],
+  openGraph: {
+    title: `${siteMeta.name} — ${siteMeta.tagline}`,
+    description: "Expert coaching, real barbells, month-to-month memberships. Claim your free trial week.",
+    type: "website",
+    locale: "en_US",
+    siteName: siteMeta.name,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${siteMeta.name} — ${siteMeta.tagline}`,
+    description: "Expert coaching, real barbells, month-to-month memberships.",
+  },
+  robots: { index: true, follow: true },
+  generator: "v0.app",
 }
 
 export const viewport: Viewport = {
-  colorScheme: 'light dark',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
-  ],
+  themeColor: "#100f0d",
+  colorScheme: "dark",
+  width: "device-width",
+  initialScale: 1,
 }
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
-    <html lang="en">
-      <body className="antialiased">
+    <html lang="en" className={`${anton.variable} ${spaceGrotesk.variable} bg-background`}>
+      <body className="min-h-screen bg-background text-foreground font-sans antialiased">
         {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
+        <div className="grain-overlay" aria-hidden="true" />
       </body>
     </html>
   )

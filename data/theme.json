@@ -1,0 +1,19 @@
+{
+  "$comment": "Single source of truth for the brand palette. Editing these hex values reskins the entire site because globals.css maps every one to a CSS variable / Tailwind token. Keep 3-5 core colors.",
+  "colors": {
+    "background": "#100f0d",
+    "surface": "#191714",
+    "surfaceRaised": "#221f1b",
+    "border": "#302b25",
+    "foreground": "#ece5d8",
+    "muted": "#8c8378",
+    "accent": "#ff5a1f",
+    "accentForeground": "#100f0d",
+    "steel": "#6f7a80"
+  },
+  "radius": "0.35rem",
+  "fonts": {
+    "display": "var(--font-display)",
+    "sans": "var(--font-sans)"
+  }
+}

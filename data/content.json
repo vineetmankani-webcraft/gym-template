@@ -1,0 +1,456 @@
+{
+  "enabledSections": [
+    "hero",
+    "about",
+    "programs",
+    "trainers",
+    "transformations",
+    "schedule",
+    "membership",
+    "testimonials",
+    "gallery",
+    "faq",
+    "contact"
+  ],
+  "siteMeta": {
+    "name": "Ironhaus Strength Co.",
+    "shortName": "Ironhaus",
+    "tagline": "Train hard. Move well. Stay dangerous.",
+    "locality": "Warehouse District, Austin TX",
+    "nav": [
+      { "label": "Programs", "href": "#programs" },
+      { "label": "Coaches", "href": "#trainers" },
+      { "label": "Results", "href": "#transformations" },
+      { "label": "Schedule", "href": "#schedule" },
+      { "label": "Pricing", "href": "#membership" },
+      { "label": "Visit", "href": "#contact" }
+    ],
+    "social": [
+      { "label": "Instagram", "handle": "@ironhaus", "href": "https://instagram.com" },
+      { "label": "YouTube", "handle": "/ironhaus", "href": "https://youtube.com" },
+      { "label": "TikTok", "handle": "@ironhaus", "href": "https://tiktok.com" }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Est. 2014 — Strength & Conditioning",
+    "titleLines": ["Forge", "A Body", "That Works"],
+    "subtitle": "A no-mirror-selfie strength gym for people who want to get genuinely strong, move without pain, and look like they lift. Coaches, not influencers.",
+    "cta": { "label": "Start a free trial week", "href": "#membership" },
+    "secondaryCta": { "label": "See the schedule", "href": "#schedule" },
+    "marquee": [
+      "Powerlifting",
+      "Olympic Lifting",
+      "Hypertrophy",
+      "Conditioning",
+      "Mobility",
+      "Team Barbell"
+    ],
+    "backgroundImage": "/images/hero/hero-main.png",
+    "backgroundAlt": "A loaded olympic barbell resting on the concrete floor of a dim industrial gym with chalk dust in the air",
+    "stats": [
+      { "value": 1200, "suffix": "+", "label": "Members coached" },
+      { "value": 11, "suffix": "yrs", "label": "In the community" },
+      { "value": 42, "suffix": "", "label": "Classes a week" },
+      { "value": 9, "suffix": "", "label": "Certified coaches" }
+    ]
+  },
+  "about": {
+    "eyebrow": "Who we are",
+    "title": "Not a fitness club. A training hall.",
+    "lead": "We built Ironhaus for the people the big-box gyms forgot: adults who want real coaching, real barbells, and real accountability.",
+    "paragraphs": [
+      "Every member starts with an assessment, not a sales pitch. We figure out how you move, what hurts, and what you actually want — then we write a plan and stand next to you while you run it.",
+      "Our floor is 8,000 square feet of platforms, rigs, and open turf. No mandatory playlists, no photo-op lighting. Just good equipment, loud music, and coaches who know your name and your numbers."
+    ],
+    "pullQuote": "The goal was never to be the biggest gym in town. It was to be the one you never outgrow.",
+    "image": "/images/gallery/gallery-3.png",
+    "imageAlt": "A large steel pull-up and squat rig inside a spacious industrial gym",
+    "secondaryImage": "/images/gallery/gallery-2.png",
+    "secondaryImageAlt": "A chalk-covered barbell with a cloud of chalk dust",
+    "stats": [
+      { "value": 8000, "suffix": " sqft", "label": "Training floor" },
+      { "value": 24, "suffix": "", "label": "Lifting platforms" },
+      { "value": 96, "suffix": "%", "label": "12-month retention" }
+    ]
+  },
+  "programs": {
+    "eyebrow": "How you train",
+    "title": "Pick your path — or run them all.",
+    "intro": "Every program is coached in small groups and progressed on a real periodized plan. Switch anytime; your membership covers all of them.",
+    "items": [
+      {
+        "id": "barbell",
+        "name": "Barbell Strength",
+        "tagline": "Squat. Bench. Deadlift. Repeat.",
+        "forWho": "Lifters who want a bigger total",
+        "format": "60 min · groups of 8",
+        "intensity": 5,
+        "description": "Linear and block periodization built around the big three, with accessory work that keeps your joints happy while your numbers climb."
+      },
+      {
+        "id": "conditioning",
+        "name": "Engine Room",
+        "tagline": "Conditioning that isn't punishment",
+        "forWho": "Anyone chasing a better engine",
+        "format": "45 min · groups of 12",
+        "intensity": 4,
+        "description": "Bikes, rowers, sleds, and carries programmed by heart-rate zones so you build a gas tank without wrecking your recovery."
+      },
+      {
+        "id": "hypertrophy",
+        "name": "Build",
+        "tagline": "Look like you lift",
+        "forWho": "Members chasing size and shape",
+        "format": "55 min · groups of 10",
+        "intensity": 4,
+        "description": "Bodybuilding-style volume with intelligent progression, tempo work, and enough variety to keep every muscle group honest."
+      },
+      {
+        "id": "foundations",
+        "name": "Foundations",
+        "tagline": "Your first 6 weeks",
+        "forWho": "Beginners and returners",
+        "format": "50 min · groups of 6",
+        "intensity": 2,
+        "description": "Learn the lifts from scratch in a small, judgment-free group before you step onto the main floor. No experience required."
+      },
+      {
+        "id": "mobility",
+        "name": "Restore",
+        "tagline": "Move well, hurt less",
+        "forWho": "Desk-bound and banged-up",
+        "format": "40 min · groups of 12",
+        "intensity": 1,
+        "description": "Guided mobility, breathing, and tissue work that undoes what sitting all day does to your hips, shoulders, and spine."
+      },
+      {
+        "id": "team",
+        "name": "Team Barbell",
+        "tagline": "Compete with your crew",
+        "forWho": "The competitive and the social",
+        "format": "75 min · squads of 16",
+        "intensity": 5,
+        "description": "Our competition track for members prepping for meets and throwdowns — programmed peaks, mock meets, and a whole lot of yelling."
+      }
+    ]
+  },
+  "trainers": {
+    "eyebrow": "The coaches",
+    "title": "People who own their programming.",
+    "intro": "No franchised scripts. Our coaches write their own blocks, log your progress, and are on the floor with you every session.",
+    "items": [
+      {
+        "name": "Marcus Vale",
+        "specialty": "Head Coach · Powerlifting",
+        "image": "/images/trainers/trainer-1.png",
+        "imageAlt": "Portrait of a lean muscular strength coach with chalk on his hands",
+        "certifications": ["CSCS", "USAPL Coach", "10+ yrs"],
+        "quote": "Strong is a skill. We'll teach it.",
+        "bio": "Two-time state powerlifting champ turned coach. Marcus has taken hundreds of lifters from bar-only to bodyweight-plus totals.",
+        "social": "@coachvale"
+      },
+      {
+        "name": "Dana Reyes",
+        "specialty": "Olympic Lifting · Conditioning",
+        "image": "/images/trainers/trainer-2.png",
+        "imageAlt": "Portrait of a strong athletic woman weightlifting coach",
+        "certifications": ["USAW L2", "Precision Nutrition", "8 yrs"],
+        "quote": "Speed under the bar is earned, not wished for.",
+        "bio": "Former collegiate athlete who lives for the snatch and the clean. Dana runs our Engine Room and Olympic tracks.",
+        "social": "@danalifts"
+      },
+      {
+        "name": "Theo Brandt",
+        "specialty": "Hypertrophy · Foundations",
+        "image": "/images/trainers/trainer-3.png",
+        "imageAlt": "Portrait of a broad muscular bearded coach with a shaved head",
+        "certifications": ["NASM CPT", "PPSC", "12 yrs"],
+        "quote": "Everybody was a beginner on day one. Even me.",
+        "bio": "Theo has coached everyone from nervous first-timers to stage-ready bodybuilders, and treats both with the same patience.",
+        "social": "@theobuilds"
+      },
+      {
+        "name": "Priya Nair",
+        "specialty": "Mobility · Rehab-adjacent",
+        "image": "/images/trainers/trainer-4.png",
+        "imageAlt": "Portrait of an athletic mobility and conditioning coach",
+        "certifications": ["DPT", "FRC", "7 yrs"],
+        "quote": "Pain-free reps beat heavy reps every time.",
+        "bio": "With a doctorate in physical therapy, Priya bridges the gap between the clinic and the platform so you keep training.",
+        "social": "@movewithpriya"
+      }
+    ]
+  },
+  "transformations": {
+    "eyebrow": "The receipts",
+    "title": "Drag the line. See the work.",
+    "intro": "Real member results from real programs. Slide each photo to compare where they started with where consistent coaching took them.",
+    "items": [
+      {
+        "beforeImage": "/images/transformations/pair-1-before.png",
+        "beforeAlt": "Torso of a member before training, softer physique",
+        "afterImage": "/images/transformations/pair-1-after.png",
+        "afterAlt": "Torso of the same member after training, lean and defined",
+        "name": "Jordan, 34",
+        "caption": "Down 22 lbs of fat, up a 405 deadlift.",
+        "timeframe": "9 months",
+        "program": "Barbell Strength"
+      },
+      {
+        "beforeImage": "/images/transformations/pair-2-before.png",
+        "beforeAlt": "Torso of a member before training",
+        "afterImage": "/images/transformations/pair-2-after.png",
+        "afterAlt": "Torso of the same member after training, toned and athletic",
+        "name": "Alicia, 29",
+        "caption": "First-ever pull-up to a bodyweight bench.",
+        "timeframe": "7 months",
+        "program": "Build"
+      },
+      {
+        "beforeImage": "/images/transformations/pair-3-before.png",
+        "beforeAlt": "Back of a member before training",
+        "afterImage": "/images/transformations/pair-3-after.png",
+        "afterAlt": "Muscular back of the same member after training",
+        "name": "Sam, 41",
+        "caption": "Fixed chronic back pain, built a real back.",
+        "timeframe": "12 months",
+        "program": "Foundations → Barbell"
+      },
+      {
+        "beforeImage": "/images/transformations/pair-4-before.png",
+        "beforeAlt": "Midsection of a member before training",
+        "afterImage": "/images/transformations/pair-4-after.png",
+        "afterAlt": "Powerful midsection of the same member after training",
+        "name": "Deshawn, 26",
+        "caption": "Added 30 lbs to a stubborn frame.",
+        "timeframe": "10 months",
+        "program": "Build + Team Barbell"
+      }
+    ]
+  },
+  "schedule": {
+    "eyebrow": "The week",
+    "title": "There's a session for your calendar.",
+    "intro": "Filter by class type to see what fits. Times shown are Central. Members book from the app up to a week ahead.",
+    "classTypes": ["Barbell", "Engine", "Build", "Foundations", "Restore", "Team"],
+    "days": [
+      {
+        "day": "Monday",
+        "short": "Mon",
+        "sessions": [
+          { "time": "6:00a", "name": "Barbell Strength", "type": "Barbell", "coach": "Marcus", "duration": "60m" },
+          { "time": "12:00p", "name": "Engine Room", "type": "Engine", "coach": "Dana", "duration": "45m" },
+          { "time": "5:30p", "name": "Build", "type": "Build", "coach": "Theo", "duration": "55m" },
+          { "time": "6:45p", "name": "Foundations", "type": "Foundations", "coach": "Theo", "duration": "50m" }
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "short": "Tue",
+        "sessions": [
+          { "time": "6:00a", "name": "Engine Room", "type": "Engine", "coach": "Dana", "duration": "45m" },
+          { "time": "9:00a", "name": "Restore", "type": "Restore", "coach": "Priya", "duration": "40m" },
+          { "time": "5:30p", "name": "Barbell Strength", "type": "Barbell", "coach": "Marcus", "duration": "60m" }
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "short": "Wed",
+        "sessions": [
+          { "time": "6:00a", "name": "Build", "type": "Build", "coach": "Theo", "duration": "55m" },
+          { "time": "12:00p", "name": "Engine Room", "type": "Engine", "coach": "Dana", "duration": "45m" },
+          { "time": "5:30p", "name": "Barbell Strength", "type": "Barbell", "coach": "Marcus", "duration": "60m" },
+          { "time": "7:00p", "name": "Team Barbell", "type": "Team", "coach": "Marcus", "duration": "75m" }
+        ]
+      },
+      {
+        "day": "Thursday",
+        "short": "Thu",
+        "sessions": [
+          { "time": "6:00a", "name": "Barbell Strength", "type": "Barbell", "coach": "Marcus", "duration": "60m" },
+          { "time": "9:00a", "name": "Restore", "type": "Restore", "coach": "Priya", "duration": "40m" },
+          { "time": "5:30p", "name": "Build", "type": "Build", "coach": "Theo", "duration": "55m" }
+        ]
+      },
+      {
+        "day": "Friday",
+        "short": "Fri",
+        "sessions": [
+          { "time": "6:00a", "name": "Engine Room", "type": "Engine", "coach": "Dana", "duration": "45m" },
+          { "time": "12:00p", "name": "Build", "type": "Build", "coach": "Theo", "duration": "55m" },
+          { "time": "5:30p", "name": "Barbell Strength", "type": "Barbell", "coach": "Marcus", "duration": "60m" }
+        ]
+      },
+      {
+        "day": "Saturday",
+        "short": "Sat",
+        "sessions": [
+          { "time": "8:00a", "name": "Team Barbell", "type": "Team", "coach": "Dana", "duration": "75m" },
+          { "time": "9:30a", "name": "Foundations", "type": "Foundations", "coach": "Priya", "duration": "50m" },
+          { "time": "10:30a", "name": "Engine Room", "type": "Engine", "coach": "Dana", "duration": "45m" }
+        ]
+      }
+    ]
+  },
+  "membership": {
+    "eyebrow": "Membership",
+    "title": "Simple pricing. No 12-month traps.",
+    "intro": "Month-to-month, cancel anytime. Every tier includes all class types and open-gym access.",
+    "note": "Annual pricing shown per month, billed yearly. Founder pricing locked for life.",
+    "currency": "$",
+    "features": [
+      "Group classes / week",
+      "Open gym access",
+      "Personalized program",
+      "Nutrition coaching",
+      "InBody scans",
+      "1:1 coaching sessions",
+      "Guest passes / month",
+      "Competition team"
+    ],
+    "tiers": [
+      {
+        "name": "Drop-In",
+        "monthly": 119,
+        "annual": 99,
+        "blurb": "Unlimited classes for the self-directed lifter.",
+        "cta": "Choose Drop-In",
+        "values": ["Unlimited", true, false, false, "Quarterly", false, false, false]
+      },
+      {
+        "name": "Member",
+        "popular": true,
+        "monthly": 179,
+        "annual": 149,
+        "blurb": "Our most popular plan — coached and programmed.",
+        "cta": "Choose Member",
+        "values": ["Unlimited", true, true, true, "Monthly", "1 / month", 2, true]
+      },
+      {
+        "name": "Private",
+        "monthly": 349,
+        "annual": 299,
+        "blurb": "Maximum attention for the fastest results.",
+        "cta": "Choose Private",
+        "values": ["Unlimited", true, true, true, "Bi-weekly", "4 / month", 4, true]
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "In their words",
+    "title": "The members said it better.",
+    "items": [
+      {
+        "quote": "I've belonged to five gyms in ten years. This is the first one where a coach noticed I'd gone quiet and actually texted to check in.",
+        "name": "Rachel M.",
+        "detail": "Member since 2021"
+      },
+      {
+        "quote": "Came in with a cranky lower back and zero confidence. Two years later I deadlift more than I weigh and nothing hurts.",
+        "name": "Ben T.",
+        "detail": "Foundations → Barbell"
+      },
+      {
+        "quote": "The programming is genuinely smart. It feels like someone is paying attention to my recovery, not just handing me a random beatdown.",
+        "name": "Imani O.",
+        "detail": "Engine Room regular"
+      },
+      {
+        "quote": "My teenagers train here now too. It's the rare place that's intense without being intimidating.",
+        "name": "Carlos D.",
+        "detail": "Family membership"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "The floor",
+    "title": "This is where it happens.",
+    "intro": "No fake plants, no juice bar. Just the equipment you'll actually use.",
+    "images": [
+      { "src": "/images/gallery/gallery-1.png", "alt": "Wall-mounted rack of barbells and bumper plates", "caption": "The bar wall" },
+      { "src": "/images/gallery/gallery-6.png", "alt": "Stacked steel weight plates with chalk marks", "caption": "Heavy metal" },
+      { "src": "/images/gallery/gallery-5.png", "alt": "A line of air bikes and rowing machines", "caption": "The engine room" },
+      { "src": "/images/gallery/gallery-4.png", "alt": "Kettlebells and dumbbells on a rack", "caption": "Bells & bells" },
+      { "src": "/images/gallery/gallery-3.png", "alt": "Large steel pull-up and squat rig", "caption": "The rig" },
+      { "src": "/images/gallery/gallery-2.png", "alt": "Chalk-covered barbell with chalk dust", "caption": "Chalk up" }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Before you ask",
+    "title": "The usual questions.",
+    "items": [
+      {
+        "q": "I've never touched a barbell. Am I going to embarrass myself?",
+        "a": "No. Everyone starts in Foundations, a small beginner group where you learn the lifts from scratch. Most members are 'former beginners' — you'll fit right in."
+      },
+      {
+        "q": "Do I need to be in shape before I join?",
+        "a": "That's like cleaning before the cleaner arrives. Come as you are; getting in shape is literally the point, and every workout scales to your level."
+      },
+      {
+        "q": "Is there a long-term contract?",
+        "a": "Never. Every membership is month-to-month and you can cancel anytime from the app. We'd rather keep you because you love it than because you're trapped."
+      },
+      {
+        "q": "Can I freeze my membership if I travel?",
+        "a": "Yes — you can freeze for up to three months a year at no charge. Just flip the switch in your member portal."
+      },
+      {
+        "q": "What should I bring to my first session?",
+        "a": "Training clothes, flat shoes or lifters, a water bottle, and a slightly open mind. We provide chalk, equipment, and more encouragement than you'll expect."
+      },
+      {
+        "q": "Do you offer nutrition help?",
+        "a": "Member and Private tiers include nutrition coaching with a real plan and check-ins. No fad diets, no shakes to sell you — just sustainable habits."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Come train",
+    "title": "Book your free trial week.",
+    "intro": "Tell us a little about your goals and we'll set up your first session and floor tour. No pressure, no hard sell.",
+    "addressLines": ["417 Foundry Street", "Warehouse District", "Austin, TX 78701"],
+    "hours": [
+      { "days": "Mon – Fri", "time": "5:00a – 9:00p" },
+      { "days": "Saturday", "time": "7:00a – 2:00p" },
+      { "days": "Sunday", "time": "Open gym 9:00a – 1:00p" }
+    ],
+    "phone": "(512) 555-0148",
+    "email": "train@ironhaus.co",
+    "mapLabel": "417 Foundry Street, Austin",
+    "mapCaption": "Free parking in the rear lot · 2 blocks from the Foundry rail stop",
+    "formHeading": "Claim your trial week",
+    "goals": ["Get stronger", "Lose fat", "Build muscle", "Move without pain", "Compete", "Just start"],
+    "successMessage": "You're in. A coach will reach out within one business day to lock in your first session."
+  },
+  "footer": {
+    "headline": "Your first week is on us.",
+    "cta": { "label": "Start free trial", "href": "#contact" },
+    "columns": [
+      {
+        "title": "Train",
+        "links": [
+          { "label": "Programs", "href": "#programs" },
+          { "label": "Schedule", "href": "#schedule" },
+          { "label": "Pricing", "href": "#membership" }
+        ]
+      },
+      {
+        "title": "Gym",
+        "links": [
+          { "label": "Coaches", "href": "#trainers" },
+          { "label": "Results", "href": "#transformations" },
+          { "label": "The floor", "href": "#gallery" }
+        ]
+      },
+      {
+        "title": "More",
+        "links": [
+          { "label": "FAQ", "href": "#faq" },
+          { "label": "Visit us", "href": "#contact" }
+        ]
+      }
+    ],
+    "legal": "Ironhaus Strength Co. This is a demo template — all members, results, and details are fictional."
+  }
+}
